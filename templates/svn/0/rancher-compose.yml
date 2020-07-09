@@ -12,3 +12,11 @@
       label: svn data dir
       description:  the directory of svn data
       type: "string"
+    - variable: "USER_NAME"
+      label: visit web user
+      description:  the user of visit the web page
+      type: "string"
+    - variable: "PASSW"
+      label: visit web password
+      description:  the user's password of visit the web page
+      type: "string"
