@@ -1,0 +1,7 @@
+name: svn_http
+description:  "svn_web service"
+version: # Version of the Catalog to be used
+category: # Category to be used for searching catalog entries
+maintainer: zhuxiaowei
+license: # The license
+projectURL: # A URL related to the catalog entry

@@ -1,0 +1,10 @@
+svn:
+  image: zhuxiaowei/svn:1.0
+  container_name: svn_service
+  ports:
+    - "${WEB_PORT}:80"
+  volumes:
+    - ${SVN_VOLUME}:/var/local/svn
+  environment:
+    - USER=${USER_NAME}
+    - PASSWORD=${PASSW}

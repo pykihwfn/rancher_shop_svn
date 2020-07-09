@@ -1,0 +1,14 @@
+.catalog:
+  name: "svn_web_system"
+  description: "subversion system"
+  version: "v1.0"
+  questions:
+    - variable: "WEB_PORT"
+      label: http_port
+      description:  http service port
+      default: 80
+      type: "int"
+    - variable: "SVN_VOLUME"
+      label: svn data dir
+      description:  the directory of svn data
+      type: "string"
